@@ -31,15 +31,15 @@ ctrl.get('/', function(req, res, next){
 module.exports = ctrl;
 
 ctrl.get('/1', function(req, res, next){
-	res.json(data[0]);
+	res.json(users[0]);
 });
 
 ctrl.get('/2', function(req, res, next){
-	res.json(data[1]);
+	res.json(users[1]);
 });
 
 ctrl.get('/3', function(req, res, next){
-	res.json(data[2]);
+	res.json(users[2]);
 });
 
 
